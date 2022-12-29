@@ -1,0 +1,41 @@
+.task {
+    background: var(--gray-500);
+    padding: 1rem;
+    color: var(--gray-100);
+    display: flex;
+    align-items: flex-start;
+    gap: .75rem;
+    border-radius: .5rem;
+    margin-bottom: .75rem;
+}
+
+.task p {
+    flex: 1;
+}
+
+.task .radio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task .trash {
+    color: var(--gray-300);
+    border-radius: .4rem;
+    padding: .313rem .37rem;
+
+    display: flex;
+    align-items: center;
+    transition: all ease-in .2s;
+}
+
+.task .trash:hover {
+    color: var(--danger);
+    background-color: var(--gray-400);
+    cursor: pointer;
+}
+
+.task .textMared {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}

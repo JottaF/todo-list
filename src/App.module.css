@@ -1,0 +1,87 @@
+.header {
+    background-color: var(--gray-700);
+    height: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    height: 3rem;
+}
+
+.wrapper {
+    max-width: 736px;
+    margin: 0 auto;
+    margin-top: calc(0px - 3.38rem / 2);
+}
+
+.input {
+    display: flex;
+    height: 3.38rem;
+    gap: .5rem;
+}
+
+.input input {
+    flex: 1;
+    padding: 1rem;
+    background-color: var(--gray-500);
+    color: var(--gray-300);
+    border: 1px solid var(--gray-700);
+    border-radius: .5rem;
+    font-size: 1rem;
+    color: var(--gray-100);
+}
+
+.input button {
+    padding: 1rem;
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    font-size: .875rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    gap: .5rem;
+    border: 0;
+
+    display: flex;
+    align-items: center;
+    transition: filter .2s;
+}
+
+.input button:hover {
+    filter: brightness(1.4);
+    cursor: pointer;
+}
+
+.tasksInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 4rem;
+}
+
+.tasksInfo div {
+    display: flex;
+    gap: .5rem;
+}
+
+.tasksInfo div p {
+    font-size: .875rem;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.tasksInfo div:last-child p {
+    color: var(--purple);
+}
+
+.tasksInfo div span {
+    color: var(--gray-100);
+    font-size: .75rem;
+    font-weight: bold;
+    background: var(--gray-400);
+    padding: .125rem .5rem;
+    border-radius: 4rem;
+    margin-bottom: 1.5rem;
+}
