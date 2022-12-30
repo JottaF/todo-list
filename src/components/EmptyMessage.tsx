@@ -1,4 +1,4 @@
-import clip from '../assets/Clipboard.svg'
+import clip from '../todo-list/assets/Clipboard.svg'
 import styles from './EmptyMessage.module.css'
 
 export function EmptyMessage() {
