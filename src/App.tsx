@@ -1,6 +1,6 @@
 import { PlusCircle } from 'phosphor-react'
 
-import logo from './todo-list/assets/Logo.svg'
+import logo from './assets/Logo.svg'
 import styles from './App.module.css'
 import { EmptyMessage } from './components/EmptyMessage'
 import { TaskTile } from './components/TaskTile'
